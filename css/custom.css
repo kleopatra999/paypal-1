@@ -6,3 +6,19 @@ body {
 .navbar-nav {
 	float: right;
 }
+
+input[type="submit"] {
+	background: #336699;
+	padding: 10px 0;
+	height: auto;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.no-pad-left {
+	padding-left: 0;
+}
+.no-pad-right {
+	padding-right: 0;
+}

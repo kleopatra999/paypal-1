@@ -7,7 +7,7 @@
                 <div class="list-group panel">
                     <a href="#paypal" class="list-group-item list-group-item-success pp" data-toggle="collapse" data-parent="#MainMenu">PayPal <i class="fa fa-caret-down"></i></a>
                     <div class="collapse" id="paypal">
-                        <a href="/paypal/standard.php" class="list-group-item" data-toggle="collapse" data-parent="#PayPalSubMenu">Standard</a>
+                        <a href="/paypal/standard.php" class="list-group-item">Standard</a>
                         <a href="/paypal/pro.php" class="list-group-item">Pro</a>
                         <a href="/paypal/advanced.php" class="list-group-item">Advanced</a>
                         <a href="/paypal/pro-hosted.php" class="list-group-item">Pro Hosted</a>

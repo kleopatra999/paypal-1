@@ -2,9 +2,9 @@
 
 $config = array(
     'paypalpro' => array(
-        'username' => 'ajl-seller_api1.pp.com',
-        'password' => 'FL9P9SMJRPFZSX53',
-        'signature' => 'AFcWxV21C7fd0v3bYYYRCpSSRl31Axdzr3P.uU8qsNo48PtQXW9AT.wG',
+        'username' => 'ajl-store_api1.pp.com',
+        'password' => 'YD5LVMJ5UM4XG78V',
+        'signature' => 'AFcWxV21C7fd0v3bYYYRCpSSRl31An2lKOUMq2vaAfb7ZG-4Zz5VPPBt',
         'endpoint' => 'https://api-3t.sandbox.paypal.com/nvp'
     ),
     'payflow' => array(
