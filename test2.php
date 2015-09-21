@@ -1,5 +1,7 @@
 <?php
 $page_title = "Home";
+
+phpinfo();
 include_once("header.php");
 include_once("sidebar.php");
 ?>

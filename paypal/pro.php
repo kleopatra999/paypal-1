@@ -9,6 +9,7 @@
         $signature = $config['paypalpro']['signature'];
         $version = $config['version'];
         $endpoint = $config['paypalpro']['endpoint'];
+        $amount = $_POST['amount'];
 
         // Set API Request Parameters
         $api_request_params = array (
@@ -43,6 +44,17 @@
             // Payment Details
             'AMT' => $_POST['amount'],
             'CURRENCYCODE' => 'USD',
+
+            // Line Items
+            'PAYMENTREQUEST_0_PAYMENTACTION' => 'Sale',
+            'PAYMENTREQUEST_0_AMT' => $amount,
+            'PAYMENTREQUEST_0_ITEMAMT' => $amount,
+            'PAYMENTREQUEST_0_CURRENCYCODE' => 'USD',
+            'PAYMENTREQUEST_0_DESC' => 'One-Time Payment',
+            'L_PAYMENTREQUEST_0_NAME0' => 'DVD',
+            'L_PAYMENTREQUEST_0_AMT0' => $amount,
+            'L_PAYMENTREQUEST_0_NUMBER0' => 'ABC123',
+            'L_PAYMENTREQUEST_0_QTY0' => '1',
         );
 
         // Convert API Params to NVP String

@@ -4,6 +4,269 @@
     include_once("../sidebar.php");
 ?>
 
+    1) Pay now button that lets user enter amount after reaching paypal
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="NYYMQC873XMV6">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    2) Subscription button that bills $10 every month indefinitely
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Subscription_10_monthly">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="src" value="1">
+        <input type="hidden" name="a3" value="10.00">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+
+    3) Buy now button with modified html code to accept user entered amount
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="BuyNow_fixed_10">
+        <!--
+        <input type="hidden" name="amount" value="10.00">-->
+        Enter amount to transfer : <input type="hidden" name="amount" value="5">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="cn" value="Add special instructions to the seller:">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    4) Shopping Cart button with a drop down menu with price/option that has 4 prices, and another drop down menu that has 4 colors
+
+    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="RCFRQN7XJETP8">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="Select option">Select option</td></tr><tr><td><select name="os0">
+                        <option value="Option 1">Option 1 $2.00 USD</option>
+                        <option value="Option 2">Option 2 $5.00 USD</option>
+                        <option value="Option 3">Option 3 $2.00 USD</option>
+                        <option value="Option 4">Option 4 $10.00 USD</option>
+                    </select> </td></tr>
+            <tr><td><input type="hidden" name="on1" value="Select color">Select color</td></tr><tr><td><select name="os1">
+                        <option value="Red">Red </option>
+                        <option value="Green">Green </option>
+                        <option value="Blue">Blue </option>
+                        <option value="Black">Black </option>
+                    </select> </td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    5) Shopping Cart button with a drop down menu with price/option that has 4 prices, and another drop down menu that has 4 colors but with modifiable html code
+
+    <form target="paypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" >
+        <input type="hidden" name="cmd" value="_cart">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="ShoppingCart_w_dd_po">
+        <input type="hidden" name="button_subtype" value="products">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="cn" value="Add special instructions to the seller:">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="add" value="1">
+        <input type="hidden" name="bn" value="PP-ShopCartBF:btn_cart_LG.gif:NonHosted">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="option">option</td></tr><tr><td><select name="os0">
+                        <option value="Option 1">Option 1 $2.00 USD</option>
+                        <option value="Option 2">Option 2 $5.00 USD</option>
+                        <option value="Option 3">Option 3 $2.00 USD</option>
+                        <option value="Option 4">Option 4 $10.00 USD</option>
+                    </select> </td></tr>
+            <tr><td><input type="hidden" name="on1" value="color">color</td></tr><tr><td><select name="os1">
+                        <option value="Red">Red </option>
+                        <option value="Green">Green </option>
+                        <option value="Blue">Blue </option>
+                        <option value="Black">Black </option>
+                    </select> </td></tr>
+        </table>
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="option_select0" value="Option 1">
+        <input type="hidden" name="option_amount0" value="2.00">
+        <input type="hidden" name="option_select1" value="Option 2">
+        <input type="hidden" name="option_amount1" value="5.00">
+        <input type="hidden" name="option_select2" value="Option 3">
+        <input type="hidden" name="option_amount2" value="2.00">
+        <input type="hidden" name="option_select3" value="Option 4">
+        <input type="hidden" name="option_amount3" value="10.00">
+        <input type="hidden" name="option_index" value="0">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        The difference here is that since this is an unencrypted submission and the options values are not stored in the paypal account, all values are hardcoded and sent across based on users selection thereby not allowing tampering.
+    </form>
+
+    6) Subscription button with user entered amount and billing cycle
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Subscription_10_monthly">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="src" value="1">
+        <!--
+        <input type="hidden" name="a3" value="10.00">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">-->
+
+        Enter the amount: <input type="text" name="a3" size="8" maxlength="8">
+        <br>
+
+        Select length :
+        <select name="p3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+
+        <br>
+
+        Select frequency :
+        <select name="t3">
+            <option value="W">Week(s)</option>
+            <option value="M">Month(s)</option>
+        </select>
+        <br>
+
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+
+    7) Donation button with user entered amount and billing cycle
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick-subscriptions">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Subscription_10_monthly">
+        <input type="hidden" name="no_note" value="1">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="src" value="1">
+        <!--
+        <input type="hidden" name="a3" value="10.00">
+        <input type="hidden" name="p3" value="1">
+        <input type="hidden" name="t3" value="M">-->
+
+        Enter the amount: <input type="text" name="a3" size="8" maxlength="8">
+        <br>
+
+        Select length :
+        <select name="p3">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+
+        <br>
+
+        Select frequency :
+        <select name="t3">
+            <option value="W">Week(s)</option>
+            <option value="M">Month(s)</option>
+        </select>
+        <br>
+
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+
+    8) Buy Now button with two text fields
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Pay Now Button_1">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="cn" value="Add special instructions to the seller">
+        <!--
+        <input type="hidden" name="amount" value="10.00">-->
+        Enter amount to transfer : <input type="text" name="amount" size="8">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHosted">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="Enter Ocupation">Enter Ocupation</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+            <tr><td><input type="hidden" name="on1" value="Name of Employer">Name of Employer</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+        </table>
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
+    9) Donation button -
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="amount" value="5.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="cn" value="Add special instructions to the seller">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHosted">
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+        Setting cmd to _donations causes other non hosted buttons to behave like a monthly recurring donation overriding its prior intended functionality
+    </form>
+
+
+
+    10) buy now button that has cmd=_donations and added text fields
+
+    <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations">
+        <input type="hidden" name="business" value="9EP29NFCYST4Y">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Pay Now Button_1">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="cn" value="Add special instructions to the seller">
+        <!--
+        <input type="hidden" name="amount" value="10.00">-->
+        Enter amount to donate : <input type="text" name="amount" size="8">
+        <input type="hidden" name="no_shipping" value="2">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynow_LG.gif:NonHosted">
+        <table>
+            <tr><td><input type="hidden" name="on0" value="Enter Ocupation">Enter Ocupation</td></tr><tr><td><input type="text" name="os0" maxlength="200"></td></tr>
+            <tr><td><input type="hidden" name="on1" value="Name of Employer">Name of Employer</td></tr><tr><td><input type="text" name="os1" maxlength="200"></td></tr>
+        </table>
+        <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+    </form>
+
 
 
 

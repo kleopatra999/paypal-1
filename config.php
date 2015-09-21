@@ -8,7 +8,11 @@ $config = array(
         'endpoint' => 'https://api-3t.sandbox.paypal.com/nvp'
     ),
     'payflow' => array(
-        'username' => ''
+        'partner' => 'PayPal',
+        'vendor' => 'alangsdonpaypal',
+        'user' => 'alpayflow',
+        'pwd' => 'paypal1234',
+        'endpoint' => 'https://pilot-payflowpro.paypal.com'
     ),
     'braintree' => array(
 

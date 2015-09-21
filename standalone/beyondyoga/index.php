@@ -1,14 +1,11 @@
 <?php
-$page_title = "PayFlow Payments Pro";
-include_once("../header.php");
-include_once("../sidebar.php");
 
 if(!empty($_POST)) {
-    $partner = $config['payflow']['partner'];
-    $vendor = $config['payflow']['vendor'];
-    $user = $config['payflow']['user'];
-    $password = $config['payflow']['pwd'];
-    $endpoint = $config['payflow']['endpoint'];
+    $partner = 'PayPal';
+    $vendor = 'alangsdonpaypal';
+    $user = 'alpayflow';
+    $password = 'paypal1234';
+    $endpoint = 'https://pilot-payflowpro.paypal.com';
 
     // Set API Request Parameters
     $api_request_params = array (
@@ -17,7 +14,7 @@ if(!empty($_POST)) {
         'VENDOR' => $vendor,
         'PARTNER' => $partner,
         'PWD' => $password,
-        'TRXTYPE' => 'S',
+        'TRXTYPE' => 'A',
         'TENDER' => 'C',
         'ACCT' => $_POST['cardnum'],
         'EXPDATE' => $_POST['expmonth'] . $_POST['expyear'],
@@ -29,11 +26,9 @@ if(!empty($_POST)) {
         'CITY' => $_POST['city'],
         'STATE' => $_POST['state'],
         'ZIP' => $_POST['zip'],
-        'L_NAME0' => 'Item Name',
-        'L_DESC0' => 'Item Description',
     );
 
-    // Display Post Date
+    // Display Post Data
     echo "<h3>Data sent</h3>";
     printVars($api_request_params);
 
@@ -47,6 +42,11 @@ if(!empty($_POST)) {
     $result_array = nvpConvert($result);
     echo "<h3>Response</h3>";
     printVars($result_array);
+
+    // Get PNREF from Authorization
+    $pnref = $result_array['PNREF'];
+
+    echo "<a href='capture.php?pnref=" . $pnref . "'>Click here to Capture Funds</a>";
 }
 
 // Show input form
@@ -56,7 +56,7 @@ else {
     <div class="col-md-9">
         <div class="container">
             <div>
-                <h1>PayPal Payments Pro</h1>
+                <h1>PayFlow Pro</h1>
                 <!-- User Input Form -->
                 <form action="" method="post" id="user-input">
 
@@ -64,7 +64,7 @@ else {
                         <h3>Billing Information</h3>
                         <div class="form-group">
                             <label for="fname">First Name</label>
-                            <input type="text" class="form-control" name="fname" value="John"/>
+                            <input type="text" class="form-control" name="fname" value="Johnny"/>
                         </div>
                         <div class="form-group">
                             <label for="lname">Last Name</label>
@@ -95,7 +95,7 @@ else {
                         </div>
                         <div class="form-group">
                             <label for="cardnum">Card Number</label>
-                            <input type="text" class="form-control" name="cardnum" value="4716117123161472"/>
+                            <input type="text" class="form-control" name="cardnum" value="4716617721402822"/>
                         </div>
                         <div class="form-group">
                             <label for="expmonth">Expiration Month</label>
@@ -124,5 +124,56 @@ else {
 
 
 <?php }
-include_once("../footer.php");
+
+//
+// Helper Functions
+//
+
+// cURL function
+function runCurl($api_endpoint, $nvp) {
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_VERBOSE, 1);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
+    curl_setopt($curl, CURLOPT_TIMEOUT, 30);
+    curl_setopt($curl, CURLOPT_URL, $api_endpoint);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $nvp);
+    $result = curl_exec($curl);
+
+    return $result;
+}
+
+// Print Array in Preformat
+function printVars($array) {
+    echo "<pre>";
+    print_r($array);
+    echo "</pre>";
+}
+
+// Convert Parameters Array to NVP
+function toNVP($array) {
+    $i = 0;
+    $nvp = "";
+    foreach($array as $key => $val) {
+        if($i != 0) {
+            $nvp .= "&";
+        }
+        $nvp .= $key . '=' . $val;
+        $i++;
+    }
+    return $nvp;
+}
+
+function ppResponse($myString) {
+    $ppResponse = array();
+    parse_str($myString, $ppResponse);
+    return $ppResponse;
+}
+
+function nvpConvert($myString) {
+    $ppResponse = array();
+    parse_str($myString, $ppResponse);
+    return $ppResponse;
+}
+
 ?>

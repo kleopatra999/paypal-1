@@ -1,0 +1,57 @@
+
+            Transaction ID: 37g8vt
+
+            Date:           
+
+            Amount:         $100.00
+
+            Status:         Failed
+
+            Reason:         Cannot submit for settlement unless status is authorized.
+
+            
+
+
+        
+            Transaction ID: 4gvfcj
+
+            Date:           
+
+            Amount:         $375.00
+
+            Status:         Failed
+
+            Reason:         Cannot submit for settlement unless status is authorized.
+
+            
+
+
+        
+            Transaction ID: cjrct4
+
+            Date:           
+
+            Amount:         $39.99
+
+            Status:         Failed
+
+            Reason:         Cannot submit for settlement unless status is authorized.
+
+            
+
+
+        
+            Transaction ID: d3w9v8
+
+            Date:           
+
+            Amount:         $33.00
+
+            Status:         Failed
+
+            Reason:         Cannot submit for settlement unless status is authorized.
+
+            
+
+
+        
