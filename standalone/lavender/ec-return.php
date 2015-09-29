@@ -62,9 +62,11 @@ $result_array = nvpConvert($result);
 /*echo "<h3>Get Express Checkout Details</h3>";
 printVars($result_array);*/
 
+
 $amount = $result_array['AMT'];
 $payerid = $result_array['PAYERID'];
 $payments = $result_array['PAYMENTREQUEST_0_CUSTOM'];
+$invoicenum = $result_array['PAYMENTREQUEST_0_INVNUM'];
 $date = time();
 $format = "Y-m-d";
 //date_format(date_create($date), $format);
@@ -90,7 +92,8 @@ if($payment_type == 'single') {
         'L_PAYMENTREQUEST_0_NAME0' => 'DVD',
         'L_PAYMENTREQUEST_0_AMT0' => $amount,
         'L_PAYMENTREQUEST_0_NUMBER0' => 'ABC123',
-        'L_PAYMENTREQUEST_0_QTY0' => '1'
+        'L_PAYMENTREQUEST_0_QTY0' => '1',
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 
@@ -113,6 +116,7 @@ elseif($payment_type == 'monthly') {
         'CURRENCYCODE' => 'USD',
         'COUNTRYCODE' => 'US',
         'MAXFAILEDPAYMENTS' => '3',
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 
@@ -135,6 +139,7 @@ elseif($payment_type == 'biweekly') {
         'CURRENCYCODE' => 'USD',
         'COUNTRYCODE' => 'US',
         'MAXFAILEDPAYMENTS' => '3',
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 

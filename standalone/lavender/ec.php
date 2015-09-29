@@ -13,6 +13,8 @@ $endpoint = 'https://api-3t.paypal.com/nvp';*/
 // Get Data from URL
 $payment_type = $_GET['type'];
 $amount = $_GET['amt'];
+$invoicenum = $_GET['invoice'];
+
 // Set API Request Parameters
 if($payment_type == 'single') {
     $api_request_params = array (
@@ -34,7 +36,8 @@ if($payment_type == 'single') {
         'L_PAYMENTREQUEST_0_NUMBER0' => 'ABC123',
         'L_PAYMENTREQUEST_0_QTY0' => '1',
         'LANDINGPAGE' => 'Billing',
-        'SOLUTIONTYPE' => 'Sole'
+        'SOLUTIONTYPE' => 'Sole',
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 
@@ -52,7 +55,8 @@ elseif($payment_type == 'monthly') {
         'BILLINGAGREEMENTDESCRIPTION' => 'Lavender monthly subscription: $' . $amount . '/mo',
         'BILLINGTYPE' => 'RecurringPayments',
         'PAYMENTREQUEST_0_AMT' => $amount,
-        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments']
+        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments'],
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 
@@ -70,7 +74,8 @@ elseif($payment_type == 'biweekly') {
         'BILLINGAGREEMENTDESCRIPTION' => 'Lavender biweekly subscription: $' . $amount . '/2 weeks',
         'BILLINGTYPE' => 'RecurringPayments',
         'PAYMENTREQUEST_0_AMT' => $amount,
-        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments']
+        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments'],
+        'PAYMENTREQUEST_0_INVNUM' => $invoicenum
     );
 }
 
