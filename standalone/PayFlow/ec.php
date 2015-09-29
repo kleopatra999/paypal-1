@@ -32,6 +32,8 @@ if(!empty($_POST)) {
         'L_TAXAMT0' => '1.00',
         'L_QTY0' => '1',
         'INVNUM' => $invnum,
+        'LANDINGPAGE' => 'BILLING',
+        'SOLUTIONTYPE' => 'SOLE'
     );
 
     // Display Post Date

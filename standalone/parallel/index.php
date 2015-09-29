@@ -1,89 +1,65 @@
 <?php
-
+// API Credentials
 $username = 'ajl-store_api1.pp.com';
 $password = 'YD5LVMJ5UM4XG78V';
-$signatute = 'AFcWxV21C7fd0v3bYYYRCpSSRl31An2lKOUMq2vaAfb7ZG-4Zz5VPPBt';
+$signature = 'AFcWxV21C7fd0v3bYYYRCpSSRl31An2lKOUMq2vaAfb7ZG-4Zz5VPPBt';
 $endpoint = 'https://api-3t.sandbox.paypal.com/nvp';
 
+$username = "sales_api1.thecolornine.com";
+$password = "VQ6SAP5R4V6HWWBY";
+$signature = "AFcWxV21C7fd0v3bYYYRCpSSRl31AQ2UAD3P08wNRW2jU8c22nn5jTZs";
+$endpoint = "https://api-3t.paypal.com/nvp";
+
+// Constants
+$returnurl = 'http://paypal.local/standalone/parallel/return.php';
+$cancelurl = 'http://paypal.local/standalone/parallel/cancel.php';
+
+// Receivers Array
+$receivers = array(
+    array('Email' => 'info@capleswebdev.com', 'Amount' => '150.00'),
+    array('Email' => 'ajl-store@pp.com', 'Amount' => '100.00'),
+    array('Email' => 'ajl-buyer@pp.com', 'Amount' => '50.00'),
+    array('Email' => 'ajl-buyer2@pp.com', 'Amount' => '250.00'),
+    array('Email' => 'caples69_30_biz@hotmail.com', 'Amount' => '16.00')
+);
+
+$receivers = array(
+    array('Email' => 'oceinvestor2@ourcommunityexchange.com', 'Amount' => '150.00'),
+    array('Email' => 'oceinvestor@ourcommunityexchange.com', 'Amount' => '100.00'),
+    array('Email' => 'ocecorp@ourcommunityexchange.com', 'Amount' => '50.00'),
+    array('Email' => 'ocecolfund@ourcommunityexchange.com', 'Amount' => '250.00'),
+    array('Email' => 'funmommyof3@gmails.com', 'Amount' => '16.00')
+);
+
 // Set API Request Parameters
-if($payment_type == 'single') {
-    $api_request_params = array (
-        // API Data
-        'USER' => $username,
-        'PWD' => $password,
-        'SIGNATURE' => $signatute,
-        'METHOD=SetExpressCheckout                   # API operation
-    'RETURNURL=http://example.com/success.html   # URL displayed to buyer after authorizing transaction
-'CANCELURL=http://example.com/canceled.html  # URL displayed to buyer after canceling transaction
-'VERSION=93                                  # API version
-    &PAYMENTREQUEST_0_CURRENCYCODE=USD
-    &PAYMENTREQUEST_0_AMT=250                              # total amount of first payment
-    &PAYMENTREQUEST_0_ITEMAMT=225
-    &PAYMENTREQUEST_0_TAXAMT=25
-    &PAYMENTREQUEST_0_PAYMENTACTION=Order
-    &PAYMENTREQUEST_0_DESC=Sunset Sail for Two
-                                           &PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID=<Receiver_1>   # PayPal e-mail of 1st receiver
-&PAYMENTREQUEST_0_PAYMENTREQUESTID=CART286-PAYMENT0    # unique ID for 1st payment
-    &PAYMENTREQUEST_1_CURRENCYCODE=USD
-    &PAYMENTREQUEST_1_AMT=75                               # total amount of second payment
-    &PAYMENTREQUEST_1_ITEMAMT=65
-    &PAYMENTREQUEST_1_TAXAMT=10
-    &PAYMENTREQUEST_1_PAYMENTACTION=Order
-    &PAYMENTREQUEST_1_DESC=Sunset Wine and Cheese Plate for Two
-                                                            &PAYMENTREQUEST_1_SELLERPAYPALACCOUNTID=<Receiver_2>   # PayPal e-mail of 2nd receiver
-&PAYMENTREQUEST_1_PAYMENTREQUESTID=CART286-PAYMENT1    # unique ID for 1st payment
-    &L_PAYMENTREQUEST_0_NAME0=Departs Santa Cruz Harbor Sunday at 3:10 PM
-    &L_PAYMENTREQUEST_0_NAME1=Returns Santa Cruz Harbor 7:30 PM # begin secondary information
-    &L_PAYMENTREQUEST_0_NUMBER0=Sunset Sail 22
-    &L_PAYMENTREQUEST_0_QTY0=1                      # first ticket
-    &L_PAYMENTREQUEST_0_QTY1=1                      # second ticket
-    &L_PAYMENTREQUEST_0_AMT0=125                    # amount of first ticket
-    &L_PAYMENTREQUEST_0_AMT1=100
-    &L_PAYMENTREQUEST_0_TAXAMT0=15                  # tax on first ticket
-    &L_PAYMENTREQUEST_0_TAXAMT1=10
-    &L_PAYMENTREQUEST_0_DESC0=An amazing sail on the Monterey Bay.
-&L_PAYMENTREQUEST_1_DESC0=Five cheeses, fruit, bread, and Pinot Noir"
-    );
+$api_request_params = array (
+    // API Data
+    'USER' => $username,
+    'PWD' => $password,
+    'SIGNATURE' => $signature,
+    'METHOD' => 'SetExpressCheckout',
+    'VERSION' => '124.0',
+    'RETURNURL' => $returnurl,
+    'CANCELURL' => $cancelurl,
+);
+
+$x = 0;
+foreach($receivers as $rec) {
+    $api_request_params['PAYMENTREQUEST_' . $x . '_PAYMENTACTION'] = 'Sale';
+    $api_request_params['PAYMENTREQUEST_' . $x . '_SELLERPAYPALACCOUNTID'] = $rec['Email'];
+    $api_request_params['PAYMENTREQUEST_' . $x . '_AMT'] = $rec['Amount'];
+    $api_request_params['PAYMENTREQUEST_' . $x . '_PAYMENTREQUESTID'] = $x;
+    $x++;
 }
 
-elseif($payment_type == 'monthly') {
-    $api_request_params = array (
-        // API Data
-        'USER' => $username,
-        'PWD' => $password,
-        'SIGNATURE' => $signatute,
-        'METHOD' => 'SetExpressCheckout',
-        'VERSION' => '124.0',
-        'RETURNURL' => 'http://paypal.local/standalone/lavender/ec-return.php?type=monthly&frequency=10',
-        'CANCELURL' => 'http://paypal.local/standalone/lavender/ec-return.php',
-        'L_BILLINGTYPE0' => 'RecurringPayments',
-        'BILLINGAGREEMENTDESCRIPTION' => 'Lavender monthly subscription: $' . $amount . '/mo',
-        'BILLINGTYPE' => 'RecurringPayments',
-        'PAYMENTREQUEST_0_AMT' => $amount,
-        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments']
-    );
-}
+// Add parameters for PayPal Credit
+$api_request_params['USERSELECTEDFUNDINGSOURCE'] = 'BML';
+$api_request_params['LANDINGPAGE'] = 'BILLING';
+$api_request_params['SOLUTIONTYPE'] = 'SOLE';
 
-elseif($payment_type == 'biweekly') {
-    $api_request_params = array (
-        // API Data
-        'USER' => $username,
-        'PWD' => $password,
-        'SIGNATURE' => $signatute,
-        'METHOD' => 'SetExpressCheckout',
-        'VERSION' => '124.0',
-        'RETURNURL' => 'http://paypal.local/standalone/lavender/ec-return.php?type=biweekly',
-        'CANCELURL' => 'http://paypal.local/standalone/lavender/ec-return.php',
-        'L_BILLINGTYPE0' => 'RecurringPayments',
-        'BILLINGAGREEMENTDESCRIPTION' => 'Lavender bi-weekly subscription: $' . $amount . '/2 weeks',
-        'BILLINGTYPE' => 'RecurringPayments',
-        'PAYMENTREQUEST_0_AMT' => $amount,
-        'PAYMENTREQUEST_0_CUSTOM' => $_GET['payments']
-    );
-}
+printVars($api_request_params);
 
-
-// Display Post Date
+// Display Post Data
 /*echo "<h3>Data sent</h3>";
 printVars($api_request_params);*/
 
@@ -101,23 +77,7 @@ printVars($result_array);*/
 $ectoken = $result_array['TOKEN'];
 
 echo "<h3>Checkout with PayPal</h3>";
-echo "<a id='myContainer' href='https://www.sandbox.paypal.com/checkoutnow?token=$ectoken'></a>";
-
-?>
-
-    <!-- In-Context Checkout JS Code -->
-    <script type="text/javascript">
-        window.paypalCheckoutReady = function () {
-            paypal.checkout.setup('ajl-seller@pp.com', {
-                container: 'myContainer',
-                environment: 'sandbox'
-            });
-        };
-    </script>
-    <script src="//www.paypalobjects.com/api/checkout.js" async></script>
-
-<?
-
+echo "<a href='https://www.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=$ectoken'>PayPal Checkout</a>";
 
 //
 // Helper Functions

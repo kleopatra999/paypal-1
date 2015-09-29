@@ -87,7 +87,7 @@ else {
                         <h3>Payment Information</h3>
                         <div class="form-group">
                             <label for="ctype">Card Type</label>
-                            <input type="text" class="form-control" name="ctype" value="MasterCard"/>
+                            <input type="text" class="form-control" name="ctype" value="Visa"/>
                         </div>
                         <div class="form-group">
                             <label for="cardnum">Card Number</label>
