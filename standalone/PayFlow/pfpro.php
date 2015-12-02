@@ -26,6 +26,10 @@ if(!empty($_POST)) {
         'CITY' => $_POST['city'],
         'STATE' => $_POST['state'],
         'ZIP' => $_POST['zip'],
+        'CUSTNUM' => '38383838383',
+        'COMMENT1' => '38383838383',
+        'CUSTOM' => '38383838383',
+        'CUSTOM1' => '38383838383',
     );
 
     // Display Post Date

@@ -28,7 +28,7 @@ $receivers = array(
     array('Email' => 'oceinvestor@ourcommunityexchange.com', 'Amount' => '100.00'),
     array('Email' => 'ocecorp@ourcommunityexchange.com', 'Amount' => '50.00'),
     array('Email' => 'ocecolfund@ourcommunityexchange.com', 'Amount' => '250.00'),
-    array('Email' => 'funmommyof3@gmails.com', 'Amount' => '16.00')
+    array('Email' => 'funmommyof3@gmail.com', 'Amount' => '16.00')
 );
 
 // Set API Request Parameters
@@ -53,7 +53,7 @@ foreach($receivers as $rec) {
 }
 
 // Add parameters for PayPal Credit
-$api_request_params['USERSELECTEDFUNDINGSOURCE'] = 'BML';
+//$api_request_params['USERSELECTEDFUNDINGSOURCE'] = 'BML';
 $api_request_params['LANDINGPAGE'] = 'BILLING';
 $api_request_params['SOLUTIONTYPE'] = 'SOLE';
 

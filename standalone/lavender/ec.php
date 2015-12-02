@@ -100,8 +100,6 @@ $ectoken = $result_array['TOKEN'];
 echo "<h3>Checkout with PayPal</h3>";
 echo "<a id='myContainer' href='https://www.sandbox.paypal.com/checkoutnow?token=$ectoken'></a>";
 
-https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-4J9023936P402911S&force_sa=true
-
 ?>
 
     <!-- In-Context Checkout JS Code -->

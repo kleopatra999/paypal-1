@@ -10,6 +10,11 @@ $password = 'D429H5SDMMGJJXQ7';
 $signature = 'AOYOWU9BgNvyzp3DYmwREuBFY7Y0AW9DJJmEmGa0G1RSUX3.YHrhfanb';
 $endpoint = 'https://api-3t.paypal.com/nvp';*/
 
+/*$username = "sales_api1.thecolornine.com";
+$password = "VQ6SAP5R4V6HWWBY";
+$signature = "AFcWxV21C7fd0v3bYYYRCpSSRl31AQ2UAD3P08wNRW2jU8c22nn5jTZs";
+$endpoint = 'https://api-3t.paypal.com/nvp';*/
+
 // Get Data from URL
 $payment_type = $_GET['type'];
 $amount = $_GET['amt'];
@@ -59,8 +64,8 @@ $result = runCurl($endpoint, $nvp);
 
 // Parse API response to NVP
 $result_array = nvpConvert($result);
-/*echo "<h3>Get Express Checkout Details</h3>";
-printVars($result_array);*/
+echo "<h3>Get Express Checkout Details</h3>";
+printVars($result_array);
 
 
 $amount = $result_array['AMT'];
@@ -155,8 +160,8 @@ $result = runCurl($endpoint, $nvp);
 
 // Parse API response to NVP
 $result_array = nvpConvert($result);
-/*echo "<h3>Response</h3>";
-printVars($result_array);*/
+echo "<h3>Response</h3>";
+printVars($result_array);
 
 if($result_array['ACK'] == 'Success') {
     echo "<h3>Payment Complete!</h3>";

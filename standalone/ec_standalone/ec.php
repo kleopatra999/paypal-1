@@ -26,6 +26,7 @@ if(!empty($_POST)) {
         'L_PAYMENTREQUEST_0_AMT0' => $amount,
         'L_PAYMENTREQUEST_0_NUMBER0' => 'ABC123',
         'L_PAYMENTREQUEST_0_QTY0' => '1',
+        'USERSELECTEDFUNDINGSOURCE' => 'BML',
     );
 
 
