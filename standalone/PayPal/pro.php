@@ -1,143 +1,178 @@
-<?php
+<?
 
-$username = '';
-$password = '';
-$signature = '';
+$username = 'ajl-store_api1.pp.com';
+$password = 'YD5LVMJ5UM4XG78V';
+$signature = 'AFcWxV21C7fd0v3bYYYRCpSSRl31An2lKOUMq2vaAfb7ZG-4Zz5VPPBt';
 $endpoint = 'https://api-3t.sandbox.paypal.com/nvp';
 $version = '120';
 
+
 if(!empty($_POST)) {
-    // Set API Request Parameters
-    $api_request_params = array (
-        // API Data
-        'USER' => $username,
-        'PWD' => $password,
-        'SIGNATURE' => $signature,
-        'VERSION' => $version,
+    if($_POST['transtype'] == 'authorization') {
+        // Set API Request Parameters
+        $invnum = rand(111111, 999999);
+        $api_request_params = array(
+            // API Data
+            'USER' => $username,
+            'PWD' => $password,
+            'SIGNATURE' => $signature,
+            'VERSION' => $version,
 
-        // API Transaction Data
-        'METHOD' => 'DoDirectPayment',
-        'PAYMENTACTION' => $_POST['paymentaction'],
-        'IPADDRESS' => $_SERVER['REMOTE_ADDR'],
+            // API Transaction Data
+            'METHOD' => 'DoCapture',
+            'AUTHORIZATIONID' => $_POST['authorizationid'],
+            'AMT' => $_POST['payamt'],
+            'CURRENCYCODE' => 'USD',
+            'COMPLETETYPE' => 'Complete',
+            'INVNUM' => $invnum
+        );
 
-        // Credit Card Data
-        'CREDITCARDTYPE' => $_POST['ctype'],
-        'ACCT' => $_POST['cardnum'],
-        'EXPDATE' => $_POST['expmonth'].$_POST['expyear'],
-        'CVV2' => $_POST['cvv'],
 
-        // Customer Information
-        'FIRSTNAME' => $_POST['fname'],
-        'LASTNAME' => $_POST['lname'],
+        // Convert API Params to NVP String
+        $nvp = toNVP($api_request_params);
+        echo "<h3>Data sent</h3>";
+        printVars($api_request_params);
 
-        // Address Fields
-        'STREET' => $_POST['street'],
-        'CITY' => $_POST['city'],
-        'STATE' => $_POST['state'],
-        'COUNTRYCODE' => 'US',
-        'ZIP' => $_POST['zip'],
+        // Run cURL on endpoint & NVP string
+        $result = runCurl($endpoint, $nvp);
 
-        // Payment Details
-        'AMT' => $_POST['amount'],
-        'CURRENCYCODE' => 'USD',
-    );
+        // Parse API response to NVP
+        $result_array = nvpConvert($result);
+        echo "<h3>Response</h3>";
+        echo printVars($result_array);
+    }
+    else {
 
-    // Convert API Params to NVP String
-    $nvp = toNVP($api_request_params);
-    echo "<h3>Data sent</h3>";
-    printVars(nvpConvert($nvp));
+        // Set API Request Parameters
+        $api_request_params = array(
+            // API Data
+            'USER' => $username,
+            'PWD' => $password,
+            'SIGNATURE' => $signature,
+            'VERSION' => $version,
 
-    // Run cURL on endpoint & NVP string
-    $result = runCurl($endpoint, $nvp);
+            // API Transaction Data
+            'METHOD' => 'DoDirectPayment',
+            'PAYMENTACTION' => $_POST['paymentaction'],
+            'IPADDRESS' => $_SERVER['REMOTE_ADDR'],
 
-    // Parse API response to NVP
-    $result_array = nvpConvert($result);
-    echo "<h3>Response</h3>";
-    printVars($result_array);
+            // Credit Card Data
+            'ACCT' => $_POST['cardnum'],
+            'EXPDATE' => $_POST['expmonth'] . $_POST['expyear'],
+            'CVV2' => $_POST['cvv'],
+
+            // Customer Information
+            'FIRSTNAME' => $_POST['fname'],
+            'LASTNAME' => $_POST['lname'],
+
+            // Address Fields
+            'STREET' => $_POST['street'],
+            'CITY' => $_POST['city'],
+            'STATE' => $_POST['state'],
+            'COUNTRYCODE' => 'US',
+            'ZIP' => $_POST['zip'],
+
+            // Payment Details
+            'AMT' => $_POST['amount'],
+            'CURRENCYCODE' => 'USD',
+        );
+
+        // Convert API Params to NVP String
+        $nvp = toNVP($api_request_params);
+        echo "<h3>Data sent</h3>";
+        printVars(nvpConvert($nvp));
+
+        // Run cURL on endpoint & NVP string
+        $result = runCurl($endpoint, $nvp);
+
+        // Parse API response to NVP
+        $result_array = nvpConvert($result);
+        echo "<h3>Response</h3>";
+        printVars($result_array);
+
+        if ($api_request_params['PAYMENTACTION'] == "Authorization") {
+            $payamt = $result_array['AMT'];
+            $authorizationid = $result_array['TRANSACTIONID'];
+            ?>
+            <form method="post">
+                <label for="payamt">Capture Amount: </label><input type="text" name="payamt" value="<?php echo $payamt; ?>">
+                <input type="hidden" name="authorizationid" value="<?php echo $authorizationid; ?>"/>
+                <input type="hidden" name="transtype" value="authorization"/>
+                <input type="submit" name="submit" value="Capture"/>
+            </form>
+            <?
+        }
+    }
 }
 
 // Show input form
 else {
     ?>
-
-    <div class="col-md-9">
-        <div>
-            <h1>PayPal Payments Pro</h1>
-            <!-- User Input Form -->
-            <form action="" method="post" id="user-input">
-                <div class="billing-info col-md-6">
-                    <h3>Billing Information</h3>
-                    <div class="form-group">
-                        <label for="fname">First Name</label>
-                        <input type="text" class="form-control" name="fname" value="Johnny"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input type="text" class="form-control" name="lname" value="Walker"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="street">Street</label>
-                        <input type="text" class="form-control" name="street" value="927 N Palm Drive"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="city">City</label>
-                        <input type="text" class="form-control" name="city" value="Scottsdale"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="state">State</label>
-                        <input type="text" class="form-control" name="state" value="Arizona"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="zip">Zip</label>
-                        <input type="text" class="form-control" name="zip" value="85251"/>
-                    </div>
-                </div>
-                <div class="payment-info col-md-6">
-                    <h3>Payment Information</h3>
-                    <div class="form-group">
-                        <label for="ctype">Card Type</label>
-                        <select name="ctype" class="form-control">
-                            <option value="Visa" selected>Visa</option>
-                            <option value="Mastercard">Mastercard</option>
-                            <option value="Discover">Discover</option>
-                            <option value="American Express">American Express</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="cardnum">Card Number</label>
-                        <input type="text" class="form-control" name="cardnum" value="4532672682018796" maxlength="16"/>
-                    </div>
-                    <div class="form-group col-md-4 no-pad-left">
-                        <label for="expmonth">Exp. Month</label>
-                        <input type="text" class="form-control" name="expmonth" value="08" maxlength="2"/>
-                    </div>
-                    <div class="form-group col-md-4 no-pad-left">
-                        <label for="expyear">Exp. Year</label>
-                        <input type="text" class="form-control" name="expyear" value="2016" maxlength="4">
-                    </div>
-                    <div class="form-group col-md-4 no-pad-left no-pad-right">
-                        <label for="cvv">CVV</label>
-                        <input type="text" class="form-control" name="cvv" value="324" maxlength="3"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="paymentaction">Payment Action</label>
-                        <select name="paymentaction" class="form-control">
-                            <option value="Sale" selected>Sale</option>
-                            <option value="Authorization">Authorization</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="cardnum">Payment Amount</label>
-                        <input type="text" class="form-control" name="amount" value="50.00"/>
-                    </div>
-                </div>
-                <div class="col-md-3"></div>
-                <div class="submit-button center col-md-6">
-                    <input type="submit" class="form-control" value="Submit" />
-                </div>
-            </form>
+    <h1>PayPal Payments Pro</h1>
+    <!-- User Input Form -->
+    <form action="" method="post" id="user-input">
+        <div class="billing-info">
+            <h3>Billing Information</h3>
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" value="Johnny"/>
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" value="Walker"/>
+            </div>
+            <div>
+                <label for="street">Street</label>
+                <input type="text" name="street" value="927 N Palm Drive"/>
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" name="city" value="Scottsdale"/>
+            </div>
+            <div>
+                <label for="state">State</label>
+                <input type="text" name="state" value="Arizona"/>
+            </div>
+            <div>
+                <label for="zip">Zip</label>
+                <input type="text" name="zip" value="85251"/>
+            </div>
         </div>
-    </div>
+        <div class="payment-info">
+            <h3>Payment Information</h3>
+            <div>
+                <label for="cardnum">Card Number</label>
+                <input type="text" name="cardnum" value="4532672682018796" maxlength="16"/>
+            </div>
+            <div class="form-group col-md-4 no-pad-left">
+                <label for="expmonth">Exp. Month</label>
+                <input type="text" name="expmonth" value="08" maxlength="2"/>
+            </div>
+            <div class="form-group col-md-4 no-pad-left">
+                <label for="expyear">Exp. Year</label>
+                <input type="text" name="expyear" value="2016" maxlength="4">
+            </div>
+            <div class="form-group col-md-4 no-pad-left no-pad-right">
+                <label for="cvv">CVV</label>
+                <input type="text" name="cvv" value="324" maxlength="3"/>
+            </div>
+            <div>
+                <label for="paymentaction">Payment Action</label>
+                <select name="paymentaction">
+                    <option value="Sale" selected>Sale</option>
+                    <option value="Authorization">Authorization</option>
+                </select>
+            </div>
+            <div>
+                <label for="cardnum">Payment Amount</label>
+                <input type="text" name="amount" value="50.00"/>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="submit-button center col-md-6">
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
 
 
 <?php }

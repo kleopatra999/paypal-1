@@ -1,105 +1,69 @@
 <?php
-$page_title = "PayFlow Express Checkout";
 
-if(!empty($_POST)) {
-    $partner = 'PayPal';
-    $vendor = 'alangsdonpaypal';
-    $user = 'alpayflow';
-    $password = 'paypal1234';
-    $endpoint = 'https://pilot-payflowpro.paypal.com';
+$partner = 'PayPal';
+$vendor = 'alangsdonpaypal';
+$user = 'alpayflow';
+$password = 'paypal1234';
+$endpoint = 'https://pilot-payflowpro.paypal.com';
 
-    $invnum = rand(1000000, 90999999);
+// Set API Request Parameters
+$api_request_params = array (
+    // API Data
+    'USER' => $user,
+    'VENDOR' => $vendor,
+    'PARTNER' => $partner,
+    'PWD' => $password,
+    'TRXTYPE' => 'S',
+    'TENDER' => 'P',
+    'ACTION' => 'S',
+    'AMT' => '15.00',
+    'CURRENCY' => 'USD',
+    'RETURNURL' => 'http://paypal.local/standalone/PayFlow/ec-return.php?amt=15.00',
+    'CANCELURL' => 'http://paypal.local/standalone/PayFlow/ec-cancel.php',
+    'ORDERDESC' => 'Test Order for Express Checkout',
+    'L_NAME0' => 'John Henry',
+    'L_DESC0' => 'Cowboy Boots',
+    'L_ITEMNUMBER0' => '123456',
+    'L_COST0' => '14.00',
+    'L_TAXAMT0' => '1.00',
+    'L_QTY0' => '1',
+);
 
-    // Set API Request Parameters
-    $api_request_params = array (
-        // API Data
-        'USER' => $user,
-        'VENDOR' => $vendor,
-        'PARTNER' => $partner,
-        'PWD' => $password,
-        'TRXTYPE' => 'S',
-        'TENDER' => 'P',
-        'ACTION' => 'S',
-        'AMT' => $_POST['amount'],
-        'CURRENCY' => 'USD',
-        'RETURNURL' => 'http://paypal.local/standalone/PayFlow/ec-return.php',
-        'CANCELURL' => 'http://google.com/',
-        'ORDERDESC' => 'Test Order for Express Checkout',
-        'L_NAME0' => 'Burton Lucky Pant',
-        'L_DESC0' => 'Womens Pants',
-        'L_ITEMNUMBER0' => '123456',
-        'L_COST0' => '14.00',
-        'L_TAXAMT0' => '1.00',
-        'L_QTY0' => '1',
-        'INVNUM' => $invnum,
-    );
+// Display Post Date
+echo "<h3>Data sent</h3>";
+printVars($api_request_params);
 
-    // Display Post Date
-    echo "<h3>Data sent</h3>";
-    printVars($api_request_params);
+// Convert API Params to NVP String
+$nvp = toNVP($api_request_params);
 
-    // Convert API Params to NVP String
-    $nvp = toNVP($api_request_params);
+// Run cURL on endpoint & NVP string
+$result = runCurl($endpoint, $nvp);
 
-    // Run cURL on endpoint & NVP string
-    $result = runCurl($endpoint, $nvp);
+// Parse API response to NVP
+$result_array = nvpConvert($result);
+echo "<h3>Response</h3>";
+printVars($result_array);
 
-    // Parse API response to NVP
-    $result_array = nvpConvert($result);
-    echo "<h3>Response</h3>";
-    printVars($result_array);
+$ectoken = $result_array['TOKEN'];
 
-    $ectoken = $result_array['TOKEN'];
+echo "<h3>Checkout with PayPal</h3>";
+echo "<a id='myContainer' href='https://www.sandbox.paypal.com/checkoutnow?token=$ectoken'></a>";
 
-    echo "<h3>Checkout with PayPal</h3>";
-    echo "<a id='myContainer' href='https://www.sandbox.paypal.com/checkoutnow?token=$ectoken'></a>";
-}
-
-// Show input form
-else {
-    ?>
-
-    <div class="col-md-9">
-        <div class="container">
-            <div>
-                <h1>PayFlow Express Checkout</h1>
-                <!-- User Input Form -->
-                <form action="" method="post" id="user-input">
-                    <div class="billing-info col-sm-5">
-                        <h3>Billing Information</h3>
-                        <div class="form-group">
-                            <label for="fname">Payment Amount</label>
-                            <input type="text" class="form-control" name="amount" value="15.00"/>
-                        </div>
-                        <div class="submit-button center col-sm-5">
-                            <input type="submit" class="form-control" value="Submit" />
-                        </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-
-
-
-<?php }
-
+// Include JavaScript for In-Context Flow
 ?>
+    <script>
+        window.paypalCheckoutReady = function () {
+            paypal.checkout.setup('<Your-Merchant-ID>', {
+                environment: 'sandbox',
+                container: 'myContainer'
+            });
+        };
+    </script>
 
-<!-- In-Context Checkout JS Code -->
-<script type="text/javascript">
-    window.paypalCheckoutReady = function () {
-        paypal.checkout.setup(' ', {
-            container: 'myContainer',
-            environment: 'sandbox'
-        });
-    };
-</script>
-<script src="//www.paypalobjects.com/api/checkout.js" async></script>
-
-<?
+    <script src="//www.paypalobjects.com/api/checkout.js" async></script>
 
 
+<?php
 //
 // Helper Functions
 //
@@ -150,4 +114,3 @@ function nvpConvert($myString) {
     parse_str($myString, $ppResponse);
     return $ppResponse;
 }
-?>

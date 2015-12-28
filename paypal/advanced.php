@@ -33,19 +33,14 @@
 
     $securetoken = $result_array['SECURETOKEN'];
 ?>
+    <div class="col-md-9">
+        <p>This is a test HTML file.</p>
 
-    <html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-    <p>This is a test HTML file.</p>
+        <iframe src="https://payflowlink.paypal.com?MODE=TEST&SECURETOKENID=<?php echo $securetokenid; ?>&SECURETOKEN=<?php echo $securetoken; ?>"
+                name="test_iframe" scrolling="no" width="570px" height="540px"></iframe>
 
-    <iframe src="https://payflowlink.paypal.com?MODE=TEST&SECURETOKENID=<?php echo $securetokenid; ?>&SECURETOKEN=<?php echo $securetoken; ?>"
-            name="test_iframe" scrolling="no" width="570px" height="540px"></iframe>
-
-    </body>
-    </html>
+        <p>Here is some stuff</p>
+    </div>
 
 <?php
     include_once("../footer.php");

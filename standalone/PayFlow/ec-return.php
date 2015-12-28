@@ -1,14 +1,15 @@
 <?php
-// Store API Credentials
+
 $partner = 'PayPal';
 $vendor = 'alangsdonpaypal';
 $user = 'alpayflow';
 $password = 'paypal1234';
-$api_endpoint = 'https://pilot-payflowpro.paypal.com';
+$endpoint = 'https://pilot-payflowpro.paypal.com';
 $ec_token = $_GET['token'];
-$amount = 15.00;
+$payerid = $_GET['PayerID'];
+$amount = 6;
 
-$api_parameters = array(
+$api_request_params = array(
     'USER' => $user,
     'VENDOR' => $vendor,
     'PARTNER' => $partner,
@@ -17,23 +18,21 @@ $api_parameters = array(
     'TENDER' => 'P',
     'ACTION' => 'G',
     'TOKEN' => $ec_token,
-    'VERBOSITY' => 'high'
 );
 
-// Convert array to NVP string
-$nvp = toNVP($api_parameters);
+// Convert API Params to NVP String
+$nvp = toNVP($api_request_params);
+echo "<h3>GetExpressCheckoutDetails API Call</h3>";
+printVars(nvpConvert($nvp));
 
-// Run cURL call to post parameters to PayPal server
-$result = runCurl($api_endpoint, $nvp);
+// Run cURL on endpoint & NVP string
+$result = runCurl($endpoint, $nvp);
 
-// Convert NVP returned from cURL to array
+// Parse API response to NVP
 $result_array = nvpConvert($result);
-
-// Get Express Checkout Token from response
-echo "<h3>GetExpressCheckoutDetails</h3>";
+echo "<h3>Response</h3>";
 printVars($result_array);
 
-$payerid = $result_array['PAYERID'];
 
 //
 // DoExpressCheckout - Complete payment and capture funds
@@ -57,7 +56,7 @@ $api_parameters = array(
 $nvp = toNVP($api_parameters);
 
 // Run cURL call to post parameters to PayPal server
-$result = runCurl($api_endpoint, $nvp);
+$result = runCurl($endpoint, $nvp);
 
 // Convert NVP returned from cURL to array
 $result_array = nvpConvert($result);

@@ -40,9 +40,11 @@ function runCurl($api_endpoint, $nvp) {
 
 // Print Array in Preformat
 function printVars($array) {
-    echo "<pre>";
-    print_r($array);
-    echo "</pre>";
+    $x = "<pre>";
+    $x .= print_r($array, true);
+    $x .= "</pre>";
+    return $x;
+    //echo "</pre>";
 }
 
 // Convert Parameters Array to NVP
