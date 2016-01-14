@@ -2,839 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2a6ddc-8061-4372-815a-2e3c39e90d93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/paypal.local.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/css/1140.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/old/paypal/pro.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/paypal/adaptive/chained.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/.coveralls.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/docs/cover.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/generate-api.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Address.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Agreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/AgreementDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/AgreementStateDescriptor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/AgreementTransaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/AgreementTransactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/AlternatePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Amount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Authorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BankAccountsList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BankToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BaseAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Billing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BillingAgreementToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/BillingInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CancelNotification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Capture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CarrierAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CarrierAccountToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CartBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ChargeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Cost.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CountryCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreateProfileResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Credit.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreditCardHistory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreditCardList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreditCardToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CreditFinancingOffered.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Currency.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CurrencyConversion.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/CustomAmount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Details.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ErrorDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ExtendedBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ExternalFunding.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FlowConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FmfDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FundingDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FundingInstrument.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FundingOption.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FundingSource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/FuturePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/HyperSchema.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Incentive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InputFields.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InstallmentInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InstallmentOption.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Invoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InvoiceAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InvoiceItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/InvoiceSearchResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Item.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ItemList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Links.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Measurement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/MerchantInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/MerchantPreferences.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Metadata.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/NameValuePair.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Notification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OpenIdAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OpenIdError.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OpenIdSession.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OpenIdTokeninfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OpenIdUserinfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Order.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/OverrideChargeModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Patch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PatchRequest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Payee.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Payer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayerInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Payment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentCardToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentDefinition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentExecution.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentHistory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentInstruction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentOptions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PaymentTerm.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Payout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayoutBatch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayoutBatchHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayoutItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayoutItemDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PayoutSenderBatchHeader.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Phone.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Plan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PlanList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PotentialPayerInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Presentation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/PrivateLabelCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ProcessorResponse.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/RecipientBankingInstruction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/RedirectUrls.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Refund.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/RefundDetail.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/RelatedResources.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Sale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ShippingAddress.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ShippingCost.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/ShippingInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Tax.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Terms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Transaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/TransactionBase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Transactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/Webhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebhookEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebhookEventList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebhookEventType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebhookEventTypeList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Api/WebhookList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Auth/OAuthTokenCredential.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Cache/AuthorizationCache.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Common/ArrayUtil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Common/PayPalModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Common/PayPalResourceModel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Common/PayPalUserAgent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Common/ReflectionUtil.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Converter/FormatConverter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalConfigManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalConstants.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalCredentialManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalHttpConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalHttpConnection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalLoggingLevel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/PayPalLoggingManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Core/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Exception/PayPalConfigurationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Exception/PayPalConnectionException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Exception/PayPalInvalidCredentialException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Exception/PayPalMissingCredentialException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Handler/IPayPalHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Handler/OauthHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Handler/RestHandler.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Rest/ApiContext.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Rest/IResource.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Security/Cipher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Transport/PayPalRestCall.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Validation/ArgumentValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Validation/JsonValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Validation/NumericValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/lib/PayPal/Validation/UrlValidator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/phpunit.integration.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/phpunit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/release_notes.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/.htaccess" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/CreateBillingAgreementWithCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/CreateBillingAgreementWithPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/CreatePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/DeletePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/ExecuteAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/GetBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/GetPlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/ListPlans.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/ReactivateBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/SearchBillingTransactions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/SuspendBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/UpdateBillingAgreement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/UpdatePlan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/billing/UpdatePlanPaymentDefinitions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/common.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/assets/behavior.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/assets/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/CreateBillingAgreementWithCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/CreateBillingAgreementWithPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/CreatePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/DeletePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/ExecuteAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/GetBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/GetPlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/ListPlans.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/ReactivateBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/SearchBillingTransactions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/SuspendBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/UpdateBillingAgreement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/UpdatePlan.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/billing/UpdatePlanPaymentDefinitions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/CancelInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/CreateInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/DeleteInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/GetInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/ListInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/RecordPayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/RecordRefund.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/RemindInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/RetrieveQRCode.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/SearchInvoices.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/SendInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/invoice/UpdateInvoice.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/lipp/GenerateAccessTokenFromRefreshToken.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/lipp/GetUserInfo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/lipp/ObtainUserConsent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/lipp/UserConsentRedirect.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/CreateWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/DeleteAllWebhooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/DeleteWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/GetWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/ListSubscribedWebhookEventTypes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/ListWebhooks.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/SearchWebhookEvents.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/UpdateWebhook.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/ValidateWebhookEvent.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/notifications/WebhookEventTypesList.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/CreateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/DeleteWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/GetWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/ListWebProfiles.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/PartiallyUpdateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payment-experience/UpdateWebProfile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/AuthorizationCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/AuthorizePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/AuthorizePaymentUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/CreateFuturePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/CreatePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/CreatePaymentUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/CreatePaymentUsingSavedCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/ExecutePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/GetAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/GetCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/GetPayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/ListPayments.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderAuthorize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderCreateForAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderCreateForCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderCreateForVoid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderCreateUsingPayPal.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderDoVoid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/OrderGet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/Reauthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/RefundCapture.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/UpdatePayment.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payments/VoidAuthorization.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payouts/CancelPayoutItem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payouts/CreateBatchPayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payouts/CreateSinglePayout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payouts/GetPayoutBatchStatus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/payouts/GetPayoutItemStatus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/sale/GetSale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/sale/RefundSale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/tls/TlsCheck.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/CreateBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/CreateCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/DeleteBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/DeleteCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/GetBankAccount.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/GetCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/ListCreditCards.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/doc/vault/UpdateCreditCard.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/header.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/images/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/images/pp_v_rgb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/images/sample_console.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/images/sample_web.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/CancelInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/CreateInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/DeleteInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/GetInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/ListInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/RecordPayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/RecordRefund.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/RemindInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/RetrieveQRCode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/SearchInvoices.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/SendInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/UpdateInvoice.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/invoice/images/sample.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/lipp/GenerateAccessTokenFromRefreshToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/lipp/GetUserInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/lipp/ObtainUserConsent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/lipp/UserConsentRedirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/CreateWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/DeleteAllWebhooks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/DeleteWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/GetWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/ListSubscribedWebhookEventTypes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/ListWebhooks.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/SearchWebhookEvents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/UpdateWebhook.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/ValidateWebhookEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/notifications/WebhookEventTypesList.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/CreateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/DeleteWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/GetWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/ListWebProfiles.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/PartiallyUpdateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payment-experience/UpdateWebProfile.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/AuthorizationCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/AuthorizePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/AuthorizePaymentUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/CreateFuturePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/CreatePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/CreatePaymentUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/CreatePaymentUsingSavedCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/ExecutePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/GetAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/GetCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/GetPayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/ListPayments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderAuthorize.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderCreateForAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderCreateForCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderCreateForVoid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderCreateUsingPayPal.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderDoVoid.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/OrderGet.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/Reauthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/RefundCapture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/UpdatePayment.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payments/VoidAuthorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payouts/CancelPayoutItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payouts/CreateBatchPayout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payouts/CreateSinglePayout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payouts/GetPayoutBatchStatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/payouts/GetPayoutItemStatus.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/sale/GetSale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/sale/RefundSale.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/sdk_config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/tls/TlsCheck.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/CreateBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/CreateCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/DeleteBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/DeleteCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/GetBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/GetCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/ListCreditCards.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/sample/vault/UpdateCreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AgreementStateDescriptorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AgreementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AgreementTransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AgreementTransactionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AlternatePaymentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AmountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/AuthorizationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/BankAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/BankAccountsListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/BankTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/BillingInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/BillingTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CancelNotificationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CaptureTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CarrierAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CarrierAccountTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CartBaseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ChargeModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CostTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CountryCodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreateProfileResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditCardHistoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditCardListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditCardTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditFinancingOfferedTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CreditTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CurrencyConversionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CurrencyTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/CustomAmountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/DetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ErrorDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ExtendedBankAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ExternalFundingTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FlowConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FmfDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FundingDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FundingInstrumentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FundingOptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/FundingSourceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/HyperSchemaTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ImageTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/IncentiveTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InputFieldsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InstallmentInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InstallmentOptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InvoiceAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InvoiceItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InvoiceSearchResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/InvoiceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ItemListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/LinksTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/MeasurementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/MerchantInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/MerchantPreferencesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/MetadataTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/NameValuePairTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/NotificationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OpenIdAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OpenIdErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OpenIdSessionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OpenIdTokeninfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OpenIdUserinfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OrderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/OverrideChargeModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PatchRequestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PatchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayeeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayerInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentCardTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentDefinitionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentExecutionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentHistoryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentInstructionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentOptionsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentTermTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PaymentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutBatchHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutBatchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutItemDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutItemTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutSenderBatchHeaderTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PayoutTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PhoneTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PlanListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PlanTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PotentialPayerInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PresentationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/PrivateLabelCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ProcessorResponseTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/RecipientBankingInstructionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/RedirectUrlsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/RefundDetailTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/RefundTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/RelatedResourcesTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/SaleTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/SearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ShippingAddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ShippingCostTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/ShippingInfoTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/TaxTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/TermsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/TransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebProfileTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookEventListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookEventTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookEventTypeListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookEventTypeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookListTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Api/WebhookTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Auth/OAuthTokenCredentialTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Cache/AuthorizationCacheTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/ArrayClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/ArrayUtilTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/ChildClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/FormatConverterTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/ModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/NestedClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/PayPalModelTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/SimpleClass.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Common/UserAgentTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Constants.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Core/PPConfigManagerTest.php.skipped" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Core/PayPalCredentialManagerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Core/PayPalHttpConfigTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Core/PayPalLoggingManagerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Exception/PayPalConfigurationExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Exception/PayPalConnectionExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Exception/PayPalInvalidCredentialExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Exception/PayPalMissingCredentialExceptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/BillingAgreementsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/BillingPlansFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/InvoiceFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/PaymentsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/PayoutsFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/WebProfileFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Api/WebhookFunctionalTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/Setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testBillBalance.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreateCCAgreement.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreatePayPalAgreement.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testCreateWithOverride.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testExecute.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetCancelled.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetSuspended.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testGetTransactions.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testReactivate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testSetBalance.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testSuspend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingAgreementsFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testCreateWithNOChargeModel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testGetList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingMerchantPreferences.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingPD.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/BillingPlansFunctionalTest/testUpdateChangingState.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testGetAll.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testQRCode.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRecordPayment.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRecordRefund.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testRemind.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testSearch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testSend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/InvoiceFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testCreateWallet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testExecute.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGetPending.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testGetSale.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PaymentsFunctionalTest/testRefundSale.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testCancel.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/PayoutsFunctionalTest/testGetItem.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testGetList.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testPartialUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebProfileFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testCreate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testDelete.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testEventResend.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testEventSearch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGet.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetAll.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetEvent.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testGetSubscribedEventTypes.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/testUpdate.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Functional/resources/WebhookFunctionalTest/webhook_get_available_event_types.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Handler/OauthHandlerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Rest/ApiContextTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Validation/ArgumentValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Validation/JsonValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Validation/NumericValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/PayPal/Test/Validation/UrlValidatorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/bootstrap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sdk/tests/sdk_config.ini" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/baupdate/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/beyondyoga.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/beyondyoga/capture.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/beyondyoga/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/cancel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/delaycap.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/drhyman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/drhyman_files.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/h55sl3az.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/h55sl3az/drhyman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/h55sl3az/drhyman_files.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/h55sl3az/h55sl3az.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/return-old.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/drhyman/return.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/ec_standalone/ec-cancel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/ec_standalone/ec-return.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/ec_standalone/ec.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/ec_standalone/ec_standalone.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/ec-cancel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/ec-return.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/ec.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/lavender.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/lavender_live.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lavender/lavender_live_new.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lisa/advanced.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lisa/iframe.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lisa/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lisa/return.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/lisa/silent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/checkout.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/AddOn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/AddOnGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Address.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/AddressGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/AmexExpressCheckoutCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/AndroidPayCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/ApplePayCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Base.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/ClientToken.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/ClientTokenGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CoinbaseAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Collection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CredentialsParser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CreditCard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CreditCardGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CreditCardVerification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CreditCardVerificationGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CreditCardVerificationSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Customer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CustomerGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/CustomerSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Descriptor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Digest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Disbursement.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/DisbursementDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Discount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/DiscountGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Dispute.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Dispute/TransactionDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/EqualityNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Error/Codes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Error/ErrorCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Error/Validation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Error/ValidationErrorCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/EuropeBankAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/Authentication.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/Authorization.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/Configuration.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/DownForMaintenance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/ForgedQueryString.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/InvalidChallenge.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/InvalidSignature.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/NotFound.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/SSLCaFileNotFound.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/SSLCertificate.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/ServerError.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/TestOperationPerformedInProduction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/Unexpected.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/UpgradeRequired.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Exception/ValidationsFailed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/FacilitatorDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Gateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Http.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Instance.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/IsNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/KeyValueNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Merchant.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccount/AddressDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccount/BusinessDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccount/FundingDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccount/IndividualDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantAccountGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MerchantGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Modification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MultipleValueNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/MultipleValueOrTextNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/OAuthCredentials.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/OAuthGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PartialMatchNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PartnerMerchant.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PayPalAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PayPalAccountGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PaymentInstrumentType.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PaymentMethod.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PaymentMethodGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PaymentMethodNonce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PaymentMethodNonceGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Plan.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/PlanGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/RangeNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/ResourceCollection.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Result/CreditCardVerification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Result/Error.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Result/Successful.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/RiskData.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/SettlementBatchSummary.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/SettlementBatchSummaryGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/SignatureService.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Subscription.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Subscription/StatusDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/SubscriptionGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/SubscriptionSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/CreditCardNumbers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/MerchantAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/Nonces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/Transaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/TransactionAmounts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Test/VenmoSdk.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TestingGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TextNode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/ThreeDSecureInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/AddressDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/AmexExpressCheckoutCardDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/AndroidPayCardDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/ApplePayCardDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/CoinbaseDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/CreditCardDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/CustomerDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/EuropeBankAccountDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/PayPalDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/StatusDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/SubscriptionDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Transaction/VenmoAccountDetails.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TransactionGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TransactionSearch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TransparentRedirect.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/TransparentRedirectGateway.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/UnknownPaymentMethod.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Util.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/VenmoAccount.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Version.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/WebhookNotification.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/WebhookTesting.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Xml.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Xml/Generator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/Braintree/Xml/Parser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/autoload.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/lib/ssl/api_braintreegateway_com.ca.crt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/release.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/Braintree/CreditCardDefaults.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/Braintree/CreditCardNumbers/CardTypeIndicators.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/Braintree/OAuthTestHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/Helper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/SanityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/Setup.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/AddOnsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/AddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/ClientTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/CreditCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/CreditCardVerificationAdvancedSearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/CustomerAdvancedSearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/CustomerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/DisbursementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/DiscountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/Error/ErrorCollectionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/Error/ValidationErrorCollectionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/EuropeBankAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/HttpClientApi.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/HttpTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/MerchantAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/MerchantTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/MultipleValueNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/OAuthTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/PayPalAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/PaymentMethodNonceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/PaymentMethodTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/PlanTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/Result/ErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/SettlementBatchSummaryTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/SubscriptionHelper.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/SubscriptionSearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/SubscriptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/TestTransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/TextNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/TransactionAdvancedSearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/TransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/integration/TransparentRedirectTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/AddOnTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/AddressTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/BraintreeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/ClientApi/ClientTokenTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/ConfigurationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/CreditCardTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/CustomerTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/DigestTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/DisbursementDetailsTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/DisbursementTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/DiscountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/GatewayTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/InstanceTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/MerchantAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/MultipleValueNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/MultipleValueOrTextNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/OAuthTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/PayPalAccountTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/PaymentMethodTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/RangeNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/ResourceCollectionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/Result/ErrorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/Result/SuccessfulTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/SanityTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/SubscriptionSearchTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/SubscriptionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/TextNodeTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/TransactionTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/TransparentRedirectTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/UnknownPaymentMethodTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/UtilTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/WebhookNotificationTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/Xml_GeneratorTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/tests/unit/Xml_ParserTest.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/marketplace/delay-chained/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/parallel/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/standalone/parallel/return.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header.php" afterPath="$PROJECT_DIR$/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paypal/advanced.php" afterPath="$PROJECT_DIR$/paypal/advanced.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/paypal/pro.php" afterPath="$PROJECT_DIR$/paypal/pro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sidebar.php" afterPath="$PROJECT_DIR$/sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayPal/ec-return.php" afterPath="$PROJECT_DIR$/standalone/PayPal/ec-return.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayPal/ec.php" afterPath="$PROJECT_DIR$/standalone/PayPal/ec.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayPal/pro.php" afterPath="$PROJECT_DIR$/standalone/PayPal/pro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/advanced.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/advanced.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" />
     </list>
     <ignored path="paypal.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -856,21 +28,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/bt-marketplace/index.php">
+      <file leaf-file-name="ach.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ach.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+            <state vertical-scroll-proportion="-23.25">
+              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="checkout.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/standalone/bt-marketplace/checkout.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30577576">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state vertical-scroll-proportion="-0.9433962">
+              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="return.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/return.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="payflow.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3584905">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <marker date="1451939288000" expanded="true" signature="4203:6598" placeholder="..." />
+                <marker date="1451939288000" expanded="true" signature="4368:5548" placeholder="..." />
+                <marker date="1451939288000" expanded="true" signature="5605:6514" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.020454545">
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advanced.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="158" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="158" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chris.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/junk/chris.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/payflow/pro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="advanced-return.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -885,13 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/standalone/drhyman/delaycap.php" />
-        <option value="$PROJECT_DIR$/standalone/lavender/ec-cancel.php" />
-        <option value="$PROJECT_DIR$/standalone/beyondyoga/index.php" />
-        <option value="$PROJECT_DIR$/standalone/beyondyoga/capture.php" />
-        <option value="$PROJECT_DIR$/test2.php" />
-        <option value="$PROJECT_DIR$/braintree/directcc/index.php" />
-        <option value="$PROJECT_DIR$/standalone/parallel/test.php" />
         <option value="$PROJECT_DIR$/braintree/directcc/directcc/index.php" />
         <option value="$PROJECT_DIR$/standalone/baupdate/index.php" />
         <option value="$PROJECT_DIR$/test.php" />
@@ -903,7 +152,6 @@
         <option value="$PROJECT_DIR$/junker.php" />
         <option value="$PROJECT_DIR$/standalone/parallel/return.php" />
         <option value="$PROJECT_DIR$/standalone/PayFlow/PayFlow_EC_Pro/pro-dcc.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/standalone/lavender/index.php" />
         <option value="$PROJECT_DIR$/standalone/ec_standalone/ec.php" />
         <option value="$PROJECT_DIR$/standalone/parallel/index.php" />
@@ -912,7 +160,6 @@
         <option value="$USER_HOME$/Desktop/temp/ec.php/ec.php" />
         <option value="$PROJECT_DIR$/braintree/custom_form/test.php" />
         <option value="$PROJECT_DIR$/standalone/PayFlow/pfpro.php" />
-        <option value="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" />
         <option value="$PROJECT_DIR$/standalone/lisa/iframe.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp17049/wamp/www/public_html/index.php" />
         <option value="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/checkout.php" />
@@ -924,7 +171,6 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/paypal/pro.php" />
         <option value="$PROJECT_DIR$/sidebar.php" />
-        <option value="$PROJECT_DIR$/standalone/PayPal/pro.php" />
         <option value="$PROJECT_DIR$/standalone/readme.txt" />
         <option value="$PROJECT_DIR$/standalone/PayPal/ec.php" />
         <option value="$PROJECT_DIR$/standalone/PayPal/ec-return.php" />
@@ -936,6 +182,16 @@
         <option value="$USER_HOME$/AppData/Local/Temp/scp41864/home/paymentdev/www/advanced.php" />
         <option value="$PROJECT_DIR$/standalone/bt-marketplace/index.php" />
         <option value="$PROJECT_DIR$/standalone/bt-marketplace/checkout.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/transparent-redirect.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp42299/home/paymentdev/public_html/tr/payflow.php" />
+        <option value="$PROJECT_DIR$/standalone/PayPal/pro.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp05349/home/paymentdev/public_html/pp-ec/ec-return.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp05678/home/paymentdev/public_html/pp-ec/ec.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/advanced.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp53826/wamp/www/docgen/sites/all/themes/bartik/css/style.css" />
+        <option value="$PROJECT_DIR$/junk/chris.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -1026,7 +282,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bt-marketplace" />
+              <option name="myItemId" value="PayFlow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PayFlow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="payflow" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1104,9 +396,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1122,7 +414,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32834226" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32762313" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1143,73 +435,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/standalone/index.php">
+    <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="11" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1311,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4892412">
@@ -1336,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.75">
           <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1367,24 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9592299">
-          <caret line="121" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1399,20 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="206" column="11" selection-start-line="206" selection-start-column="11" selection-end-line="206" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1486,18 +682,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/bt-marketplace/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standalone/bt-marketplace/checkout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30577576">
           <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/bt-marketplace/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14269535">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/transparent-redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.5">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.75">
+          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9591837">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="158" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payflow/pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/junk/chris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ach.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.25">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.9433962">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3584905">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <marker date="1451939288000" expanded="true" signature="4203:6598" placeholder="..." />
+            <marker date="1451939288000" expanded="true" signature="4368:5548" placeholder="..." />
+            <marker date="1451939288000" expanded="true" signature="5605:6514" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020454545">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
           <folding />
         </state>
       </provider>
