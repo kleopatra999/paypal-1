@@ -23,7 +23,7 @@ private $pwd = "paypal1234"; //your password PayPal1234
 private $endpoint = "https://pilot-payflowpro.paypal.com"; //remove "pilot-" for live server
 private $mode = "TEST"; //value can be "TEST" or "LIVE"
 private $post_url = "https://pilot-payflowlink.paypal.com";
-private $base_url = "http://localhost/TR/"; //must end in a "/"
+private $base_url = "http://paypal.local/standalone/payflow/tr/"; //must end in a "/"
 
 /*constructor for payflow
  *
@@ -176,9 +176,9 @@ $html = "<form action='" . $this->post_url . "' method='POST'>
 <label for='MODE'>MODE</label><input type='text' name='MODE' value='" . $this->mode . "' /></td></tr><tr><td>
 <label for='SECURETOKEN'>SecureToken</label><input type='text' name='SECURETOKEN' value='" . $parsed_resp['SECURETOKEN'] . "' /></td></tr><tr><td>
 <label for='SECURETOKENID'>SecureTokenID</label><input type='text' name='SECURETOKENID' value='" . $parsed_resp['SECURETOKENID'] . "' /></td></tr><tr><td>
-<label for='CARDNUM'>CC Num</label><input type='text' name='CARDNUM' value='4111111111111111' /></td></tr><tr><td>
+<label for='CARDNUM'>CC Num</label><input type='text' name='CARDNUM' value='4916743556150860' /></td></tr><tr><td>
 <label for='EXPMONTH'>EXP Month</label><input type='text' name='EXPMONTH' value='12' /></td></tr><tr><td>
-<label for='EXPYEAR'>EXP Year</label><input type='text' name='EXPYEAR' value='15' /></td></tr><tr><td>
+<label for='EXPYEAR'>EXP Year</label><input type='text' name='EXPYEAR' value='16' /></td></tr><tr><td>
 <label for='CVV2'>CSC/CVV2</label><input type='text' name='CVV2' value='123' /></td></tr></table>
 <input type='submit' value='Make the transaction' />
 </form>";
@@ -258,7 +258,7 @@ return $html;
   *  
   *@return array $response
   */ 
- /* public function createRecurringBillingProfile($arrayData){ 
+ public function createRecurringBillingProfile($arrayData){
 		$reqStr = $this->getRecurringString($arrayData);
 		
 		$response = $this->PPHttpPost($this->endpoint, $reqStr);
@@ -273,7 +273,7 @@ return $html;
   *  
   *@return array $data
   */ 
-  /*public function getRecurringString($arrayData){ 
+  public function getRecurringString($arrayData){
   if(isset($arrayData['BAID'])){ $myTender = "P"; } else{ $myTender = "C"; }
   
   $uniqueNum = substr(md5(time()), -6);
@@ -315,7 +315,8 @@ return $html;
 	 * Returns a Start Date of Tomorrow (MMDDYYYY)
 	 *
 	 */
-/*	public function tomorrow(){
+	public function tomorrow(){
+		date_default_timezone_set("America/Phoenix");
 	$day = date("d");
 	$month = date("m");
 	$year = date("Y");
@@ -325,6 +326,6 @@ return $html;
 	$tomorrow = $month . $day . $year;
 	
 	return $tomorrow;
-	}*/
+	}
 	
 }//end class
