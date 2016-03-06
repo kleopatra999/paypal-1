@@ -2,6 +2,8 @@
 
 require_once '../lib/Braintree.php';
 
+$amount = 10.00;
+
 /*Braintree_Configuration::environment('sandbox');
 Braintree_Configuration::merchantId('9bdq363phkqhg8c9');
 Braintree_Configuration::publicKey('n75g6jwpftxstgcf');
@@ -14,20 +16,19 @@ Braintree_Configuration::privateKey('604ede8e5fa2e00a89588bc87c90fe28');
 
 $token = Braintree_ClientToken::generate();
 $result = Braintree_Transaction::sale(array(
-    'amount' => '10.00',
+    'amount' => $amount,
     'creditCard' => array(
         'number' => '4111111111111111',
         'expirationMonth' => '05',
-        'expirationYear' => '12'
-    )
+        'expirationYear' => '12',
+    ),
 ));
 
-echo "<pre>";
-print_r($result);
-echo "</pre>";
-
 if ($result->success) {
-    print_r("success!: " . $result->transaction->id);
+    $result = Braintree_Transaction::submitForSettlement($result->transaction->id, $amount);
+    echo "<pre>";
+    print_r($result);
+    echo "</pre>";
 } else if ($result->transaction) {
     print_r("Error processing transaction:");
     print_r("\n  message: " . $result->message);

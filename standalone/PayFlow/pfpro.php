@@ -2,9 +2,9 @@
 
 if(!empty($_POST)) {
     $partner = 'PayPal';
-    $vendor = 'alangsdonpaypal';
-    $user = 'alpayflow';
-    $password = 'paypal1234';
+    $vendor = '';
+    $user = '';
+    $password = '';
     $endpoint = 'https://pilot-payflowpro.paypal.com';
 
     // Set API Request Parameters

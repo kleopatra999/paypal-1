@@ -1,8 +1,8 @@
 <?
 
-$username = 'ajl-store_api1.pp.com';
-$password = 'YD5LVMJ5UM4XG78V';
-$signature = 'AFcWxV21C7fd0v3bYYYRCpSSRl31An2lKOUMq2vaAfb7ZG-4Zz5VPPBt';
+$username = '';
+$password = '';
+$signature = '';
 $endpoint = 'https://api-3t.sandbox.paypal.com/nvp';
 $version = '120';
 

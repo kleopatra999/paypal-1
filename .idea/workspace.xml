@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d2a6ddc-8061-4372-815a-2e3c39e90d93" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/braintree/directcc/directcc.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/braintree/directcc/directcc/capture.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/braintree/directcc/directcc/index.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/PayFlow_EC.zip" afterPath="$PROJECT_DIR$/standalone/PayFlow/PayFlow_EC.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/pfpro.zip" afterPath="$PROJECT_DIR$/standalone/PayFlow/pfpro.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayPal/pro.zip" afterPath="$PROJECT_DIR$/standalone/PayPal/pro.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/braintree/directcc/index.php" afterPath="$PROJECT_DIR$/braintree/directcc/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ach.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ach.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/advanced-return.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/advanced-return.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/advanced.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/advanced.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec-recurring.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec-recurring.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec-return-recurring.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec-return-recurring.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/ec.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/ec.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/pfpro.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/pfpro.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayFlow/tr/return.php" afterPath="$PROJECT_DIR$/standalone/PayFlow/tr/return.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/standalone/PayPal/pro.php" afterPath="$PROJECT_DIR$/standalone/PayPal/pro.php" />
     </list>
     <ignored path="paypal.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,22 +42,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ach.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ach.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.25">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state vertical-scroll-proportion="-11.207547">
+              <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
+      <file leaf-file-name="payflow.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.9433962">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-              <folding />
+            <state vertical-scroll-proportion="0.26150122">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <marker date="1457041519279" expanded="true" signature="4229:6624" placeholder="..." />
+                <marker date="1457041519279" expanded="true" signature="4394:5574" placeholder="..." />
+                <marker date="1457041519279" expanded="true" signature="5631:6540" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,82 +69,8 @@
       <file leaf-file-name="return.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/return.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payflow.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.3584905">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <marker date="1451939288000" expanded="true" signature="4203:6598" placeholder="..." />
-                <marker date="1451939288000" expanded="true" signature="4368:5548" placeholder="..." />
-                <marker date="1451939288000" expanded="true" signature="5605:6514" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.020454545">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="advanced.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="158" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="158" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chris.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/junk/chris.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pro.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/payflow/pro.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="advanced-return.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state vertical-scroll-proportion="-8.150944">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -141,14 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/braintree/directcc/directcc/index.php" />
-        <option value="$PROJECT_DIR$/standalone/baupdate/index.php" />
-        <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/trash.php" />
-        <option value="$PROJECT_DIR$/payflow/pro.php" />
-        <option value="$PROJECT_DIR$/standalone/drhyman/index.php" />
-        <option value="$USER_HOME$/Desktop/temp/targetphonics/paypalRedirect.php" />
-        <option value="$PROJECT_DIR$/standalone/ec_standalone/ec-return.php" />
         <option value="$PROJECT_DIR$/junker.php" />
         <option value="$PROJECT_DIR$/standalone/parallel/return.php" />
         <option value="$PROJECT_DIR$/standalone/PayFlow/PayFlow_EC_Pro/pro-dcc.php" />
@@ -159,7 +95,6 @@
         <option value="$PROJECT_DIR$/standalone/lavender/ec.php" />
         <option value="$USER_HOME$/Desktop/temp/ec.php/ec.php" />
         <option value="$PROJECT_DIR$/braintree/custom_form/test.php" />
-        <option value="$PROJECT_DIR$/standalone/PayFlow/pfpro.php" />
         <option value="$PROJECT_DIR$/standalone/lisa/iframe.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp17049/wamp/www/public_html/index.php" />
         <option value="$PROJECT_DIR$/standalone/marketplace/bt-marketplace/checkout.php" />
@@ -175,8 +110,6 @@
         <option value="$PROJECT_DIR$/standalone/PayPal/ec.php" />
         <option value="$PROJECT_DIR$/standalone/PayPal/ec-return.php" />
         <option value="$PROJECT_DIR$/standalone/index.php" />
-        <option value="$PROJECT_DIR$/standalone/PayFlow/ec.php" />
-        <option value="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp44768/home/paymentdev/www/style.css" />
         <option value="//UBUNTU/Media/transfer/advanced.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp41864/home/paymentdev/www/advanced.php" />
@@ -185,13 +118,24 @@
         <option value="$PROJECT_DIR$/standalone/PayFlow/transparent-redirect.php" />
         <option value="$PROJECT_DIR$/standalone/PayFlow/tr/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp42299/home/paymentdev/public_html/tr/payflow.php" />
-        <option value="$PROJECT_DIR$/standalone/PayPal/pro.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp05349/home/paymentdev/public_html/pp-ec/ec-return.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp05678/home/paymentdev/public_html/pp-ec/ec.php" />
-        <option value="$PROJECT_DIR$/standalone/PayFlow/advanced.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp53826/wamp/www/docgen/sites/all/themes/bartik/css/style.css" />
         <option value="$PROJECT_DIR$/junk/chris.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/iframetester.php" />
+        <option value="$PROJECT_DIR$/standalone/PayPal/pro.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/ec.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/ec-return.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/ach.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/advanced-return.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/ec-return-recurring.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/ec-recurring.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/advanced.php" />
+        <option value="$PROJECT_DIR$/braintree/directcc/index.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/pfpro.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/tr/return.php" />
+        <option value="$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php" />
       </list>
     </option>
   </component>
@@ -235,7 +179,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +208,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="standalone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PayPal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,12 +279,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="payflow" />
+              <option name="myItemId" value="braintree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="paypal.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="braintree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directcc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -338,13 +318,13 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\web\paypal.local\standalone\ec_standalone" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\web\paypal.local\standalone\bt-marketplace" />
       <recent name="C:\web\paypal.local\sdk" />
       <recent name="C:\web\paypal.local\bootstrap_samples" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\web\paypal.local\standalone\ec_standalone" />
     </key>
   </component>
   <component name="RunManager">
@@ -398,7 +378,7 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26332623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24733475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -435,92 +415,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="48" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -591,24 +485,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/paypal/pro.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20385051">
           <caret line="10" column="55" selection-start-line="0" selection-start-column="0" selection-end-line="216" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -696,20 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/transparent-redirect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.5">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayPal/ec-return.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.75">
@@ -724,87 +590,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="158" column="1" selection-start-line="119" selection-start-column="0" selection-end-line="158" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/payflow/pro.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/junk/chris.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.18346547">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020477816">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/payflow/ec-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="54" column="6" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayPal/pro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/temp/pf_ec_recurring/ec-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.06115515">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec_recurring_socialUpsell/ec-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.5">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec_recurring_socialUpsell/ec-return-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.081540205">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced-return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.0">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ach.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.25">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.1223103">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/ec-return-recurring.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/pro-dcc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/transparent-redirect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020385051">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/advanced.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29445073">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iframetester.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.040770102">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/braintree/training_demo/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/braintree/directcc/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4892412">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8367347">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/pfpro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9433962">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.12244898">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/braintree/directcc/capture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18367347">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="74" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/return.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.150944">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.207547">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/standalone/PayFlow/tr/payflow.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3584905">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.26150122">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding>
-            <marker date="1451939288000" expanded="true" signature="4203:6598" placeholder="..." />
-            <marker date="1451939288000" expanded="true" signature="4368:5548" placeholder="..." />
-            <marker date="1451939288000" expanded="true" signature="5605:6514" placeholder="..." />
+            <marker date="1457041519279" expanded="true" signature="4229:6624" placeholder="..." />
+            <marker date="1457041519279" expanded="true" signature="4394:5574" placeholder="..." />
+            <marker date="1457041519279" expanded="true" signature="5631:6540" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020454545">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

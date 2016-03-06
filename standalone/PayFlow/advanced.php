@@ -1,14 +1,18 @@
 <?php
 
 if(!empty($_POST)) {
-    $endpoint = "https://pilot-payflowpro.paypal.com";
+    $endpoint = "https://payflowpro.paypal.com";
     $securetokenid = time();
     // Set API Request Parameters
     $partner = 'PayPal';
+    $vendor = 'GuruGordon';
+    $user = 'GuruGordon';
+    $password = 'Jan19PP5431';
+    /*$partner = 'PayPal';
     $vendor = 'ajlangsdondev';
     $user = 'apiUser';
     $password = 'paypal1234';
-
+*/
     $api_request_params = array(
         // API Data
         'PARTNER' => $partner,
@@ -16,7 +20,7 @@ if(!empty($_POST)) {
         'USER' => $user,
         'PWD' => $password,
         'TRXTYPE' => 'S',
-        'AMT' => 15.00,
+        'AMT' => $_POST['amount'],
         'CREATESECURETOKEN' => 'Y',
         'SECURETOKENID' => $securetokenid,
         'BILLTOFIRSTNAME' => $_POST['first_name'],
@@ -33,9 +37,15 @@ if(!empty($_POST)) {
         'SHIPTOSTATE' => $_POST['state'],
         'SHIPTOZIP' => $_POST['zip'],
         'VERBOSITY' => 'high',
-        'RETURNURL' => 'http://paypal.local/standalone/payflow/advanced-return.php');
+        'ERRORURL' => 'http://www.ebay.com',
+        //'CANCELURL' => 'DISPLAY_URL | http://www.google.com',
+        'RETURNURL' => 'http://paypal.local/standalone/payflow/advanced-return.php',
+        );
 
     /// Convert API Params to NVP String
+    echo "<pre>";
+    print_r($api_request_params);
+    echo "</pre>";
     $nvp = toNVP($api_request_params);
 
     // Run cURL on endpoint & NVP string
@@ -54,7 +64,7 @@ if(!empty($_POST)) {
     ?>
 
     <iframe
-        src="https://payflowlink.paypal.com?MODE=TEST&SECURETOKENID=<?php echo $securetokenid; ?>&SECURETOKEN=<?php echo $securetoken; ?>"
+        src="https://payflowlink.paypal.com?SECURETOKENID=<?php echo $securetokenid; ?>&SECURETOKEN=<?php echo $securetoken; ?>"
         name="test_iframe" scrolling="no" width="570px" height="1000px"></iframe>
 
     <?php

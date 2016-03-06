@@ -1,9 +1,9 @@
 <?php
 
 $partner = 'PayPal';
-$vendor = 'alangsdonpaypal';
-$user = 'alpayflow';
-$password = 'paypal1234';
+$vendor = '';
+$user = '';
+$password = '';
 $endpoint = 'https://pilot-payflowpro.paypal.com';
 $ec_token = $_GET['token'];
 $payerid = $_GET['PayerID'];

@@ -13,49 +13,16 @@ $pf_return = new payflow();
 
  
 echo "Raw POST/GET Data:";
-if(isset($_GET['PNREF'])){
-echo "<h2>Get Data</h2><pre>";
-print_r($_GET);
-echo "</pre>";
-
-if($_GET['RESULT'] == "0"){
-
-echo "<h2>Recurring Billing Request:</h2>";
-$string = $pf_return->getRecurringString($_GET);
-echo "<pre>";
-echo $string;
-echo "</pre>";
-
-
-$response = $pf_return->createRecurringBillingProfile($_GET);
-echo "<h2>Recurring Billing Response:</h2>";
-echo "<pre>";
-print_r($response);
-echo "</pre>";
+if(isset($_GET['PNREF'])) {
+    echo "<h2>Get Data</h2><pre>";
+    print_r($_GET);
+    echo "</pre>";
 }
-
-}
-if(isset($_POST['PNREF'])){
-echo "<h2>Post Data</h2><pre>";
-print_r($_POST);
-echo "</pre>";
-
-if($_POST['RESULT'] == "0"){
-echo "<h2>Recurring Billing Request:</h2>";
-$string = $pf_return->getRecurringString($_POST);
-echo "<pre>";
-echo $string;
-echo "</pre>";
-
-$response = $pf_return->createRecurringBillingProfile($_POST);
-echo "<h2>Recurring Billing Response:</h2>";
-echo "<pre>";
-print_r($response);
-echo "</pre>";
-}
-
-}
-
+    echo "ANDREW";
+    echo "<pre>";
+    print_r($_POST);
+    echo "</pre>";
+echo "ENDANDREW";
 
 
 ?>

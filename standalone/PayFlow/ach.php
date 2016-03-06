@@ -1,9 +1,9 @@
 <?php
 
 $partner = 'PayPal';
-$vendor = 'ajlangsdondev';
-$user = 'apiUser';
-$password = 'paypal1234';
+$vendor = 'GuruGordon';
+$user = 'GuruGordon';
+$password = 'Jan19PP5431';
 $endpoint = 'https://pilot-payflowpro.paypal.com';
 
 // Set API Request Parameters

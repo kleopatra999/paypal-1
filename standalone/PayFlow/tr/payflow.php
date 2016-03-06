@@ -16,10 +16,10 @@
 
 class payflow{
 
-private $user = "alpayflow"; //your user karthiktestpf
-private $vendor = "alangsdonpaypal"; //your vendor karthikpf
-private $partner = "PayPal"; //your partner PayPal
-private $pwd = "paypal1234"; //your password PayPal1234
+private $user = "SabaAPI"; //your user karthiktestpf
+private $vendor = "8872147Finance"; //your vendor karthikpf
+private $partner = "PayPalCA"; //your partner PayPal
+private $pwd = "8872147Password"; //your password PayPal1234
 private $endpoint = "https://pilot-payflowpro.paypal.com"; //remove "pilot-" for live server
 private $mode = "TEST"; //value can be "TEST" or "LIVE"
 private $post_url = "https://pilot-payflowlink.paypal.com";
@@ -68,7 +68,7 @@ public function getConstStr(){
 						$cancelURL = $this->base_url . "return.php"; //your cancel url
 						$errorURL = $this->base_url . "return.php"; //your error url
 						$silentTran = "TRUE"; //should be True with this script; it is required for Transparent Redirect
-						$trxtype = "A"; //"A" = Auth, "S" = Sale
+						$trxtype = "S"; //"A" = Auth, "S" = Sale
 						$currency = "USD"; //Currency Code "USD", "CAD", etc.
 						$verbosity = "HIGH"; //should be "HIGH" with this script
 						$createsecuretoken = "Y"; //SecureToken must be used with Transparent Redirect
@@ -272,7 +272,7 @@ return $html;
   *This function works from the return.php page to create a recurring Billing Profile API Request String.
   *  
   *@return array $data
-  */ 
+  */
   public function getRecurringString($arrayData){
   if(isset($arrayData['BAID'])){ $myTender = "P"; } else{ $myTender = "C"; }
   
